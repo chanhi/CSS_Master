@@ -1,10 +1,18 @@
-body {
+.father {
   display: flex;
-  justify-content: space-between;
+  height: 100vh;
+  gap: 10px;
+  justify-content: flex-end;
+  flex-flow: row wrap;
 }
 
 .box {
   width: 200px;
   height: 200px;
-  background-color: blue;
+  background-color: tomato;
+  color: white;
+  font-size: 36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
